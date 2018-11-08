@@ -11,7 +11,7 @@ sudo yum install -y \
 	protobuf-devel \
 	tar \
 	zlib-devel
-curl https://mosh.org/mosh-1.3.2.tar.gz -o mosh-1.3.2.tar.gz
+wget https://mosh.org/mosh-1.3.2.tar.gz
 tar xaf mosh-1.3.2.tar.gz
 cd mosh-1.3.2
 ./configure

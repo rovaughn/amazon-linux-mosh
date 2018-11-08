@@ -1,5 +1,5 @@
 amazon-linux-mosh
 -----------------
 
-Run `./build` and `mosh` and `mosh-server` will be created.  Only Docker needs
-to be installed.
+`install` is a script that can be run on an Amazon Linux 2 AMI instance to
+install mosh.

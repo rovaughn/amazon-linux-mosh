@@ -1,7 +1,0 @@
-#!/bin/sh
-set -eux
-docker build -t mosh-build .
-container_id=$(docker create mosh-build)
-docker cp "$container_id":/usr/local/bin/mosh .
-docker cp "$container_id":/usr/local/bin/mosh-server .
-docker rm "$container_id"
