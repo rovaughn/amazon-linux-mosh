@@ -1,0 +1,5 @@
+amazon-linux-mosh
+-----------------
+
+Run `./build` and `mosh` and `mosh-server` will be created.  Only Docker needs
+to be installed.
